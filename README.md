@@ -28,6 +28,9 @@ provincia) y cuál de los empleados es encargado de la misma. El número de tick
 distinto para cada sucursal (el punto de venta de identifica con los primeros cuatro números del ticket fiscal, ej:
 0001-00001234 es punto de venta 1)
 
+Para mas informacion, vaya al siguiente link:
+- [Trabajo Practico](BD2 - Trabajo practico cursada.pdf)
+
 # Como levantar el proyecto
 Como primer paso se debe comprobar que se tenga instalado:
 - Java 18 o superior
