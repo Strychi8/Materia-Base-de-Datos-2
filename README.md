@@ -29,7 +29,7 @@ distinto para cada sucursal (el punto de venta de identifica con los primeros cu
 0001-00001234 es punto de venta 1)
 
 Para mas informacion, vaya al siguiente link:
-- [Trabajo Practico](BD2 - Trabajo practico cursada.pdf)
++ [Trabajo Practico](https://github.com/Strychi8/Materia-Base-de-Datos-2/blob/d032b3dd2922ac140f9f38d13f303792dc2f32fd/BD2%20-%20Trabajo%20practico%20cursada.pdf).
 
 # Como levantar el proyecto
 Como primer paso se debe comprobar que se tenga instalado:
