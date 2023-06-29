@@ -1,0 +1,548 @@
+[
+  {
+    "id": 1,
+    "total": 1500,
+    "precioUnitario": 300,
+    "cantidad": 5,
+    "producto": {
+      "id": 5,
+      "tipo": "Medicamento",
+      "descripcion": "Manitol",
+      "laboratorio": "Eurolab",
+      "codNumerico": 1414,
+      "precio": 300
+    }
+  },
+  {
+    "id": 2,
+    "total": 500,
+    "precioUnitario": 125,
+    "cantidad": 4,
+    "producto": {
+      "id": 1,
+      "tipo": "Perfume",
+      "descripcion": "Axel",
+      "laboratorio": "Eurolab",
+      "codNumerico": 1010,
+      "precio": 125
+    }
+  },
+  {
+    "id": 3,
+    "total": 300,
+    "precioUnitario": 100,
+    "cantidad": 3,
+    "producto": {
+      "id": 2,
+      "tipo": "Perfume",
+      "descripcion": "Rexonna",
+      "laboratorio": "Richmond",
+      "codNumerico": 1111,
+      "precio": 100
+    }
+  }
+]
+[
+  {
+    "id": 4,
+    "total": 600,
+    "precioUnitario": 300,
+    "cantidad": 2,
+    "producto": {
+      "id": 5,
+      "tipo": "Medicamento",
+      "descripcion": "Manitol",
+      "laboratorio": "Eurolab",
+      "codNumerico": 1414,
+      "precio": 300
+    }
+  },
+  {
+    "id": 5,
+    "total": 730,
+    "precioUnitario": 73,
+    "cantidad": 10,
+    "producto": {
+      "id": 3,
+      "tipo": "Perfume",
+      "descripcion": "Pacco",
+      "laboratorio": "Richmond",
+      "codNumerico": 1212,
+      "precio": 73
+    }
+  }
+]
+[
+  {
+    "id": 6,
+    "total": 625,
+    "precioUnitario": 125,
+    "cantidad": 5,
+    "producto": {
+      "id": 1,
+      "tipo": "Perfume",
+      "descripcion": "Axel",
+      "laboratorio": "Eurolab",
+      "codNumerico": 1010,
+      "precio": 125
+    }
+  }
+]
+[
+  {
+    "id": 7,
+    "total": 1000,
+    "precioUnitario": 125,
+    "cantidad": 8,
+    "producto": {
+      "id": 1,
+      "tipo": "Perfume",
+      "descripcion": "Axel",
+      "laboratorio": "Eurolab",
+      "codNumerico": 1010,
+      "precio": 125
+    }
+  },
+  {
+    "id": 8,
+    "total": 800,
+    "precioUnitario": 100,
+    "cantidad": 8,
+    "producto": {
+      "id": 2,
+      "tipo": "Perfume",
+      "descripcion": "Rexonna",
+      "laboratorio": "Richmond",
+      "codNumerico": 1111,
+      "precio": 100
+    }
+  },
+  {
+    "id": 9,
+    "total": 2905,
+    "precioUnitario": 415,
+    "cantidad": 7,
+    "producto": {
+      "id": 6,
+      "tipo": "Medicamento",
+      "descripcion": "Isoprotenerol",
+      "laboratorio": "Richmond",
+      "codNumerico": 1515,
+      "precio": 415
+    }
+  }
+]
+[
+  {
+    "id": 10,
+    "total": 1470,
+    "precioUnitario": 245,
+    "cantidad": 6,
+    "producto": {
+      "id": 7,
+      "tipo": "Medicamento",
+      "descripcion": "Dopamina",
+      "laboratorio": "Richmond",
+      "codNumerico": 1616,
+      "precio": 245
+    }
+  },
+  {
+    "id": 11,
+    "total": 1750,
+    "precioUnitario": 350,
+    "cantidad": 5,
+    "producto": {
+      "id": 8,
+      "tipo": "Medicamento",
+      "descripcion": "Atropina",
+      "laboratorio": "Richmond",
+      "codNumerico": 1717,
+      "precio": 350
+    }
+  },
+  {
+    "id": 12,
+    "total": 1040,
+    "precioUnitario": 520,
+    "cantidad": 2,
+    "producto": {
+      "id": 9,
+      "tipo": "Medicamento",
+      "descripcion": "Propofol",
+      "laboratorio": "Eurolab",
+      "codNumerico": 1818,
+      "precio": 520
+    }
+  }
+]
+[
+  {
+    "id": 13,
+    "total": 625,
+    "precioUnitario": 125,
+    "cantidad": 5,
+    "producto": {
+      "id": 1,
+      "tipo": "Perfume",
+      "descripcion": "Axel",
+      "laboratorio": "Eurolab",
+      "codNumerico": 1010,
+      "precio": 125
+    }
+  },
+  {
+    "id": 14,
+    "total": 600,
+    "precioUnitario": 100,
+    "cantidad": 6,
+    "producto": {
+      "id": 2,
+      "tipo": "Perfume",
+      "descripcion": "Rexonna",
+      "laboratorio": "Richmond",
+      "codNumerico": 1111,
+      "precio": 100
+    }
+  },
+  {
+    "id": 15,
+    "total": 438,
+    "precioUnitario": 73,
+    "cantidad": 6,
+    "producto": {
+      "id": 3,
+      "tipo": "Perfume",
+      "descripcion": "Pacco",
+      "laboratorio": "Richmond",
+      "codNumerico": 1212,
+      "precio": 73
+    }
+  }
+]
+[
+  {
+    "id": 16,
+    "total": 1625,
+    "precioUnitario": 325,
+    "cantidad": 5,
+    "producto": {
+      "id": 4,
+      "tipo": "Medicamento",
+      "descripcion": "Morfina",
+      "laboratorio": "Eurolab",
+      "codNumerico": 1313,
+      "precio": 325
+    }
+  },
+  {
+    "id": 17,
+    "total": 1200,
+    "precioUnitario": 300,
+    "cantidad": 4,
+    "producto": {
+      "id": 5,
+      "tipo": "Medicamento",
+      "descripcion": "Manitol",
+      "laboratorio": "Eurolab",
+      "codNumerico": 1414,
+      "precio": 300
+    }
+  }
+]
+[
+  {
+    "id": 18,
+    "total": 500,
+    "precioUnitario": 125,
+    "cantidad": 4,
+    "producto": {
+      "id": 1,
+      "tipo": "Perfume",
+      "descripcion": "Axel",
+      "laboratorio": "Eurolab",
+      "codNumerico": 1010,
+      "precio": 125
+    }
+  }
+]
+[
+  {
+    "id": 19,
+    "total": 300,
+    "precioUnitario": 100,
+    "cantidad": 3,
+    "producto": {
+      "id": 2,
+      "tipo": "Perfume",
+      "descripcion": "Rexonna",
+      "laboratorio": "Richmond",
+      "codNumerico": 1111,
+      "precio": 100
+    }
+  },
+  {
+    "id": 20,
+    "total": 415,
+    "precioUnitario": 415,
+    "cantidad": 1,
+    "producto": {
+      "id": 6,
+      "tipo": "Medicamento",
+      "descripcion": "Isoprotenerol",
+      "laboratorio": "Richmond",
+      "codNumerico": 1515,
+      "precio": 415
+    }
+  }
+]
+[
+  {
+    "id": 21,
+    "total": 600,
+    "precioUnitario": 300,
+    "cantidad": 2,
+    "producto": {
+      "id": 5,
+      "tipo": "Medicamento",
+      "descripcion": "Manitol",
+      "laboratorio": "Eurolab",
+      "codNumerico": 1414,
+      "precio": 300
+    }
+  },
+  {
+    "id": 22,
+    "total": 700,
+    "precioUnitario": 350,
+    "cantidad": 2,
+    "producto": {
+      "id": 8,
+      "tipo": "Medicamento",
+      "descripcion": "Atropina",
+      "laboratorio": "Richmond",
+      "codNumerico": 1717,
+      "precio": 350
+    }
+  }
+]
+[
+  {
+    "id": 25,
+    "total": 900,
+    "precioUnitario": 300,
+    "cantidad": 3,
+    "producto": {
+      "id": 5,
+      "tipo": "Medicamento",
+      "descripcion": "Manitol",
+      "laboratorio": "Eurolab",
+      "codNumerico": 1414,
+      "precio": 300
+    }
+  },
+  {
+    "id": 26,
+    "total": 500,
+    "precioUnitario": 125,
+    "cantidad": 4,
+    "producto": {
+      "id": 1,
+      "tipo": "Perfume",
+      "descripcion": "Axel",
+      "laboratorio": "Eurolab",
+      "codNumerico": 1010,
+      "precio": 125
+    }
+  },
+  {
+    "id": 27,
+    "total": 300,
+    "precioUnitario": 100,
+    "cantidad": 3,
+    "producto": {
+      "id": 2,
+      "tipo": "Perfume",
+      "descripcion": "Rexonna",
+      "laboratorio": "Richmond",
+      "codNumerico": 1111,
+      "precio": 100
+    }
+  }
+]
+[
+  {
+    "id": 28,
+    "total": 511,
+    "precioUnitario": 73,
+    "cantidad": 7,
+    "producto": {
+      "id": 3,
+      "tipo": "Perfume",
+      "descripcion": "Pacco",
+      "laboratorio": "Richmond",
+      "codNumerico": 1212,
+      "precio": 73
+    }
+  },
+  {
+    "id": 29,
+    "total": 2925,
+    "precioUnitario": 325,
+    "cantidad": 9,
+    "producto": {
+      "id": 4,
+      "tipo": "Medicamento",
+      "descripcion": "Morfina",
+      "laboratorio": "Eurolab",
+      "codNumerico": 1313,
+      "precio": 325
+    }
+  },
+  {
+    "id": 30,
+    "total": 2075,
+    "precioUnitario": 415,
+    "cantidad": 5,
+    "producto": {
+      "id": 6,
+      "tipo": "Medicamento",
+      "descripcion": "Isoprotenerol",
+      "laboratorio": "Richmond",
+      "codNumerico": 1515,
+      "precio": 415
+    }
+  }
+]
+[
+  {
+    "id": 31,
+    "total": 900,
+    "precioUnitario": 300,
+    "cantidad": 3,
+    "producto": {
+      "id": 5,
+      "tipo": "Medicamento",
+      "descripcion": "Manitol",
+      "laboratorio": "Eurolab",
+      "codNumerico": 1414,
+      "precio": 300
+    }
+  },
+  {
+    "id": 32,
+    "total": 1400,
+    "precioUnitario": 350,
+    "cantidad": 4,
+    "producto": {
+      "id": 8,
+      "tipo": "Medicamento",
+      "descripcion": "Atropina",
+      "laboratorio": "Richmond",
+      "codNumerico": 1717,
+      "precio": 350
+    }
+  },
+  {
+    "id": 33,
+    "total": 700,
+    "precioUnitario": 350,
+    "cantidad": 2,
+    "producto": {
+      "id": 8,
+      "tipo": "Medicamento",
+      "descripcion": "Atropina",
+      "laboratorio": "Richmond",
+      "codNumerico": 1717,
+      "precio": 350
+    }
+  }
+]
+[
+  {
+    "id": 34,
+    "total": 520,
+    "precioUnitario": 520,
+    "cantidad": 1,
+    "producto": {
+      "id": 9,
+      "tipo": "Medicamento",
+      "descripcion": "Propofol",
+      "laboratorio": "Eurolab",
+      "codNumerico": 1818,
+      "precio": 520
+    }
+  },
+  {
+    "id": 35,
+    "total": 3360,
+    "precioUnitario": 480,
+    "cantidad": 7,
+    "producto": {
+      "id": 10,
+      "tipo": "Medicamento",
+      "descripcion": "Aspirina",
+      "laboratorio": "Eurolab",
+      "codNumerico": 1919,
+      "precio": 480
+    }
+  },
+  {
+    "id": 36,
+    "total": 1800,
+    "precioUnitario": 300,
+    "cantidad": 6,
+    "producto": {
+      "id": 5,
+      "tipo": "Medicamento",
+      "descripcion": "Manitol",
+      "laboratorio": "Eurolab",
+      "codNumerico": 1414,
+      "precio": 300
+    }
+  }
+]
+[
+  {
+    "id": 37,
+    "total": 657,
+    "precioUnitario": 73,
+    "cantidad": 9,
+    "producto": {
+      "id": 3,
+      "tipo": "Perfume",
+      "descripcion": "Pacco",
+      "laboratorio": "Richmond",
+      "codNumerico": 1212,
+      "precio": 73
+    }
+  },
+  {
+    "id": 38,
+    "total": 800,
+    "precioUnitario": 100,
+    "cantidad": 8,
+    "producto": {
+      "id": 2,
+      "tipo": "Perfume",
+      "descripcion": "Rexonna",
+      "laboratorio": "Richmond",
+      "codNumerico": 1111,
+      "precio": 100
+    }
+  },
+  {
+    "id": 39,
+    "total": 2275,
+    "precioUnitario": 325,
+    "cantidad": 7,
+    "producto": {
+      "id": 4,
+      "tipo": "Medicamento",
+      "descripcion": "Morfina",
+      "laboratorio": "Eurolab",
+      "codNumerico": 1313,
+      "precio": 325
+    }
+  }
+]

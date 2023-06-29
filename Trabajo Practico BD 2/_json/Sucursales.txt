@@ -1,0 +1,204 @@
+{
+  "id": 1,
+  "nombre": "Farmacity",
+  "puntoVenta": 1,
+  "domicilio": {
+    "id": 6,
+    "calle": "Sarmiento",
+    "localidad": "Villa Fiorito",
+    "provincia": "Buenos Aires"
+  },
+  "encargado": "Facundo Fernandez",
+  "empleados": [
+    {
+      "id": 1,
+      "nombre": "Facundo",
+      "apellido": "Fernandez",
+      "dni": 11111111,
+      "cuil": 20111111110,
+      "domicilio": {
+        "id": 1,
+        "calle": "20 de Septiembre",
+        "localidad": "Banfield",
+        "provincia": "Buenos Aires"
+      },
+      "obraSocial": {
+        "id": 1,
+        "nombre": "Hermanos S.A",
+        "numAfiliado": 1
+      }
+    },
+    {
+      "id": 2,
+      "nombre": "Jorge",
+      "apellido": "Rivera",
+      "dni": 22222222,
+      "cuil": 21222222220,
+      "domicilio": {
+        "id": 2,
+        "calle": "Avenida Pavon",
+        "localidad": "Lanus",
+        "provincia": "Buenos Aires"
+      },
+      "obraSocial": {
+        "id": 2,
+        "nombre": "AFIP",
+        "numAfiliado": 2
+      }
+    },
+    {
+      "id": 3,
+      "nombre": "Claudio",
+      "apellido": "Fernandez",
+      "dni": 33333333,
+      "cuil": 22333333330,
+      "domicilio": {
+        "id": 4,
+        "calle": "Figueroa Alcorta",
+        "localidad": "Palermo",
+        "provincia": "Buenos Aires"
+      },
+      "obraSocial": {
+        "id": 1,
+        "nombre": "Hermanos S.A",
+        "numAfiliado": 1
+      }
+    }
+  ]
+}
+{
+  "id": 2,
+  "nombre": "Trebol Verde",
+  "puntoVenta": 5,
+  "domicilio": {
+    "id": 2,
+    "calle": "Avenida Pavon",
+    "localidad": "Lanus",
+    "provincia": "Buenos Aires"
+  },
+  "encargado": "Leandro Lopez",
+  "empleados": [
+    {
+      "id": 4,
+      "nombre": "Leandro",
+      "apellido": "Lopez",
+      "dni": 44444444,
+      "cuil": 20444444440,
+      "domicilio": {
+        "id": 4,
+        "calle": "Figueroa Alcorta",
+        "localidad": "Palermo",
+        "provincia": "Buenos Aires"
+      },
+      "obraSocial": {
+        "id": 2,
+        "nombre": "AFIP",
+        "numAfiliado": 2
+      }
+    },
+    {
+      "id": 5,
+      "nombre": "Lucas",
+      "apellido": "Morandi",
+      "dni": 55555555,
+      "cuil": 23555555550,
+      "domicilio": {
+        "id": 1,
+        "calle": "20 de Septiembre",
+        "localidad": "Banfield",
+        "provincia": "Buenos Aires"
+      },
+      "obraSocial": {
+        "id": 2,
+        "nombre": "AFIP",
+        "numAfiliado": 2
+      }
+    },
+    {
+      "id": 6,
+      "nombre": "Alejo",
+      "apellido": "Suarez",
+      "dni": 66666666,
+      "cuil": 21666666660,
+      "domicilio": {
+        "id": 6,
+        "calle": "Sarmiento",
+        "localidad": "Villa Fiorito",
+        "provincia": "Buenos Aires"
+      },
+      "obraSocial": {
+        "id": 2,
+        "nombre": "AFIP",
+        "numAfiliado": 2
+      }
+    }
+  ]
+}
+{
+  "id": 3,
+  "nombre": "Asoprofarma",
+  "puntoVenta": 7,
+  "domicilio": {
+    "id": 5,
+    "calle": "La Pampa",
+    "localidad": "Palermo",
+    "provincia": "Buenos Aires"
+  },
+  "encargado": "Roberto Guzman",
+  "empleados": [
+    {
+      "id": 7,
+      "nombre": "Roberto",
+      "apellido": "Guzman",
+      "dni": 77777777,
+      "cuil": 21777777770,
+      "domicilio": {
+        "id": 5,
+        "calle": "La Pampa",
+        "localidad": "Palermo",
+        "provincia": "Buenos Aires"
+      },
+      "obraSocial": {
+        "id": 2,
+        "nombre": "AFIP",
+        "numAfiliado": 2
+      }
+    },
+    {
+      "id": 8,
+      "nombre": "Julian",
+      "apellido": "Vazquez",
+      "dni": 88888888,
+      "cuil": 21888888880,
+      "domicilio": {
+        "id": 2,
+        "calle": "Avenida Pavon",
+        "localidad": "Lanus",
+        "provincia": "Buenos Aires"
+      },
+      "obraSocial": {
+        "id": 1,
+        "nombre": "Hermanos S.A",
+        "numAfiliado": 1
+      }
+    },
+    {
+      "id": 9,
+      "nombre": "Mariano",
+      "apellido": "Sotto",
+      "dni": 99999999,
+      "cuil": 21999999990,
+      "domicilio": {
+        "id": 6,
+        "calle": "Sarmiento",
+        "localidad": "Villa Fiorito",
+        "provincia": "Buenos Aires"
+      },
+      "obraSocial": {
+        "id": 1,
+        "nombre": "Hermanos S.A",
+        "numAfiliado": 1
+      }
+    }
+  ]
+}

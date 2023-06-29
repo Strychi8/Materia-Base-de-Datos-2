@@ -1,0 +1,2513 @@
+[{
+  "_id": {
+    "$oid": "6484a9a418a6dd23fc8ff129"
+  },
+  "numeroTicket": 576,
+  "cliente": {
+    "id": 1,
+    "nombre": "Jorge",
+    "apellido": "Perez",
+    "dni": 41767737,
+    "domicilio": {
+      "_id": 1,
+      "calle": "20 de Septiembre",
+      "localidad": "Banfield",
+      "provincia": "Buenos Aires"
+    },
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    }
+  },
+  "fechaVenta": {
+    "$date": "2023-04-09T03:00:00.000Z"
+  },
+  "formaPago": "Efectivo",
+  "sucursal": {
+    "id": 1,
+    "nombre": "Farmacity",
+    "puntoVenta": 1,
+    "domicilio": {
+      "_id": 6,
+      "calle": "Sarmiento",
+      "localidad": "Villa Fiorito",
+      "provincia": "Buenos Aires"
+    },
+    "encargado": "Facundo Fernandez",
+    "empleados": [
+      {
+        "_id": 1,
+        "apellido": "Fernandez",
+        "cuil": "20111111110",
+        "dni": 11111111,
+        "domicilio": {
+          "_id": 1,
+          "calle": "20 de Septiembre",
+          "localidad": "Banfield",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Facundo",
+        "obraSocial": {
+          "_id": 1,
+          "nombre": "Hermanos S.A",
+          "numAfiliado": 1
+        }
+      },
+      {
+        "_id": 2,
+        "apellido": "Rivera",
+        "cuil": "21222222220",
+        "dni": 22222222,
+        "domicilio": {
+          "_id": 2,
+          "calle": "Avenida Pavon",
+          "localidad": "Lanus",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Jorge",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      },
+      {
+        "_id": 3,
+        "apellido": "Fernandez",
+        "cuil": "22333333330",
+        "dni": 33333333,
+        "domicilio": {
+          "_id": 4,
+          "calle": "Figueroa Alcorta",
+          "localidad": "Palermo",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Claudio",
+        "obraSocial": {
+          "_id": 1,
+          "nombre": "Hermanos S.A",
+          "numAfiliado": 1
+        }
+      }
+    ]
+  },
+  "empleadoCobrador": {
+    "id": 1,
+    "nombre": "Facundo",
+    "apellido": "Fernandez",
+    "dni": 11111111,
+    "cuil": "20111111110",
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    },
+    "domicilio": {
+      "_id": 1,
+      "calle": "20 de Septiembre",
+      "localidad": "Banfield",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "emepladoAtendedor": {
+    "id": 3,
+    "nombre": "Claudio",
+    "apellido": "Fernandez",
+    "dni": 33333333,
+    "cuil": "22333333330",
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    },
+    "domicilio": {
+      "_id": 4,
+      "calle": "Figueroa Alcorta",
+      "localidad": "Palermo",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "listaDetalleVentas": [
+    {
+      "id": 1,
+      "total": 1500,
+      "precioUnitario": 300,
+      "cantidad": 5,
+      "producto": {
+        "id": 5,
+        "tipo": "Medicamento",
+        "descripcion": "Manitol",
+        "laboratorio": "Eurolab",
+        "codNumerico": "1414",
+        "precio": 300
+      }
+    },
+    {
+      "id": 2,
+      "total": 500,
+      "precioUnitario": 125,
+      "cantidad": 4,
+      "producto": {
+        "id": 1,
+        "tipo": "Perfume",
+        "descripcion": "Axel",
+        "laboratorio": "Eurolab",
+        "codNumerico": "1010",
+        "precio": 125
+      }
+    },
+    {
+      "id": 3,
+      "total": 300,
+      "precioUnitario": 100,
+      "cantidad": 3,
+      "producto": {
+        "id": 2,
+        "tipo": "Perfume",
+        "descripcion": "Rexonna",
+        "laboratorio": "Richmond",
+        "codNumerico": "1111",
+        "precio": 100
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6484a9a418a6dd23fc8ff12a"
+  },
+  "numeroTicket": 577,
+  "cliente": {
+    "id": 1,
+    "nombre": "Jorge",
+    "apellido": "Perez",
+    "dni": 41767737,
+    "domicilio": {
+      "_id": 1,
+      "calle": "20 de Septiembre",
+      "localidad": "Banfield",
+      "provincia": "Buenos Aires"
+    },
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    }
+  },
+  "fechaVenta": {
+    "$date": "2023-04-10T03:00:00.000Z"
+  },
+  "formaPago": "Efectivo",
+  "sucursal": {
+    "id": 1,
+    "nombre": "Farmacity",
+    "puntoVenta": 1,
+    "domicilio": {
+      "_id": 6,
+      "calle": "Sarmiento",
+      "localidad": "Villa Fiorito",
+      "provincia": "Buenos Aires"
+    },
+    "encargado": "Facundo Fernandez",
+    "empleados": [
+      {
+        "_id": 1,
+        "apellido": "Fernandez",
+        "cuil": "20111111110",
+        "dni": 11111111,
+        "domicilio": {
+          "_id": 1,
+          "calle": "20 de Septiembre",
+          "localidad": "Banfield",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Facundo",
+        "obraSocial": {
+          "_id": 1,
+          "nombre": "Hermanos S.A",
+          "numAfiliado": 1
+        }
+      },
+      {
+        "_id": 2,
+        "apellido": "Rivera",
+        "cuil": "21222222220",
+        "dni": 22222222,
+        "domicilio": {
+          "_id": 2,
+          "calle": "Avenida Pavon",
+          "localidad": "Lanus",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Jorge",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      },
+      {
+        "_id": 3,
+        "apellido": "Fernandez",
+        "cuil": "22333333330",
+        "dni": 33333333,
+        "domicilio": {
+          "_id": 4,
+          "calle": "Figueroa Alcorta",
+          "localidad": "Palermo",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Claudio",
+        "obraSocial": {
+          "_id": 1,
+          "nombre": "Hermanos S.A",
+          "numAfiliado": 1
+        }
+      }
+    ]
+  },
+  "empleadoCobrador": {
+    "id": 1,
+    "nombre": "Facundo",
+    "apellido": "Fernandez",
+    "dni": 11111111,
+    "cuil": "20111111110",
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    },
+    "domicilio": {
+      "_id": 1,
+      "calle": "20 de Septiembre",
+      "localidad": "Banfield",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "emepladoAtendedor": {
+    "id": 3,
+    "nombre": "Claudio",
+    "apellido": "Fernandez",
+    "dni": 33333333,
+    "cuil": "22333333330",
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    },
+    "domicilio": {
+      "_id": 4,
+      "calle": "Figueroa Alcorta",
+      "localidad": "Palermo",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "listaDetalleVentas": [
+    {
+      "id": 4,
+      "total": 600,
+      "precioUnitario": 300,
+      "cantidad": 2,
+      "producto": {
+        "id": 5,
+        "tipo": "Medicamento",
+        "descripcion": "Manitol",
+        "laboratorio": "Eurolab",
+        "codNumerico": "1414",
+        "precio": 300
+      }
+    },
+    {
+      "id": 5,
+      "total": 730,
+      "precioUnitario": 73,
+      "cantidad": 10,
+      "producto": {
+        "id": 3,
+        "tipo": "Perfume",
+        "descripcion": "Pacco",
+        "laboratorio": "Richmond",
+        "codNumerico": "1212",
+        "precio": 73
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6484a9a418a6dd23fc8ff12b"
+  },
+  "numeroTicket": 578,
+  "cliente": {
+    "id": 1,
+    "nombre": "Jorge",
+    "apellido": "Perez",
+    "dni": 41767737,
+    "domicilio": {
+      "_id": 1,
+      "calle": "20 de Septiembre",
+      "localidad": "Banfield",
+      "provincia": "Buenos Aires"
+    },
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    }
+  },
+  "fechaVenta": {
+    "$date": "2023-04-10T03:00:00.000Z"
+  },
+  "formaPago": "Efectivo",
+  "sucursal": {
+    "id": 1,
+    "nombre": "Farmacity",
+    "puntoVenta": 1,
+    "domicilio": {
+      "_id": 6,
+      "calle": "Sarmiento",
+      "localidad": "Villa Fiorito",
+      "provincia": "Buenos Aires"
+    },
+    "encargado": "Facundo Fernandez",
+    "empleados": [
+      {
+        "_id": 1,
+        "apellido": "Fernandez",
+        "cuil": "20111111110",
+        "dni": 11111111,
+        "domicilio": {
+          "_id": 1,
+          "calle": "20 de Septiembre",
+          "localidad": "Banfield",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Facundo",
+        "obraSocial": {
+          "_id": 1,
+          "nombre": "Hermanos S.A",
+          "numAfiliado": 1
+        }
+      },
+      {
+        "_id": 2,
+        "apellido": "Rivera",
+        "cuil": "21222222220",
+        "dni": 22222222,
+        "domicilio": {
+          "_id": 2,
+          "calle": "Avenida Pavon",
+          "localidad": "Lanus",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Jorge",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      },
+      {
+        "_id": 3,
+        "apellido": "Fernandez",
+        "cuil": "22333333330",
+        "dni": 33333333,
+        "domicilio": {
+          "_id": 4,
+          "calle": "Figueroa Alcorta",
+          "localidad": "Palermo",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Claudio",
+        "obraSocial": {
+          "_id": 1,
+          "nombre": "Hermanos S.A",
+          "numAfiliado": 1
+        }
+      }
+    ]
+  },
+  "empleadoCobrador": {
+    "id": 3,
+    "nombre": "Claudio",
+    "apellido": "Fernandez",
+    "dni": 33333333,
+    "cuil": "22333333330",
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    },
+    "domicilio": {
+      "_id": 4,
+      "calle": "Figueroa Alcorta",
+      "localidad": "Palermo",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "emepladoAtendedor": {
+    "id": 4,
+    "nombre": "Leandro",
+    "apellido": "Lopez",
+    "dni": 44444444,
+    "cuil": "20444444440",
+    "obraSocial": {
+      "_id": 2,
+      "nombre": "AFIP",
+      "numAfiliado": 2
+    },
+    "domicilio": {
+      "_id": 4,
+      "calle": "Figueroa Alcorta",
+      "localidad": "Palermo",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "listaDetalleVentas": [
+    {
+      "id": 6,
+      "total": 625,
+      "precioUnitario": 125,
+      "cantidad": 5,
+      "producto": {
+        "id": 1,
+        "tipo": "Perfume",
+        "descripcion": "Axel",
+        "laboratorio": "Eurolab",
+        "codNumerico": "1010",
+        "precio": 125
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6484a9a418a6dd23fc8ff12c"
+  },
+  "numeroTicket": 579,
+  "cliente": {
+    "id": 2,
+    "nombre": "Manuel",
+    "apellido": "Grecco",
+    "dni": 31321345,
+    "domicilio": {
+      "_id": 2,
+      "calle": "Avenida Pavon",
+      "localidad": "Lanus",
+      "provincia": "Buenos Aires"
+    },
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    }
+  },
+  "fechaVenta": {
+    "$date": "2023-04-11T03:00:00.000Z"
+  },
+  "formaPago": "Efectivo",
+  "sucursal": {
+    "id": 1,
+    "nombre": "Farmacity",
+    "puntoVenta": 1,
+    "domicilio": {
+      "_id": 6,
+      "calle": "Sarmiento",
+      "localidad": "Villa Fiorito",
+      "provincia": "Buenos Aires"
+    },
+    "encargado": "Facundo Fernandez",
+    "empleados": [
+      {
+        "_id": 1,
+        "apellido": "Fernandez",
+        "cuil": "20111111110",
+        "dni": 11111111,
+        "domicilio": {
+          "_id": 1,
+          "calle": "20 de Septiembre",
+          "localidad": "Banfield",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Facundo",
+        "obraSocial": {
+          "_id": 1,
+          "nombre": "Hermanos S.A",
+          "numAfiliado": 1
+        }
+      },
+      {
+        "_id": 2,
+        "apellido": "Rivera",
+        "cuil": "21222222220",
+        "dni": 22222222,
+        "domicilio": {
+          "_id": 2,
+          "calle": "Avenida Pavon",
+          "localidad": "Lanus",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Jorge",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      },
+      {
+        "_id": 3,
+        "apellido": "Fernandez",
+        "cuil": "22333333330",
+        "dni": 33333333,
+        "domicilio": {
+          "_id": 4,
+          "calle": "Figueroa Alcorta",
+          "localidad": "Palermo",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Claudio",
+        "obraSocial": {
+          "_id": 1,
+          "nombre": "Hermanos S.A",
+          "numAfiliado": 1
+        }
+      }
+    ]
+  },
+  "empleadoCobrador": {
+    "id": 3,
+    "nombre": "Claudio",
+    "apellido": "Fernandez",
+    "dni": 33333333,
+    "cuil": "22333333330",
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    },
+    "domicilio": {
+      "_id": 4,
+      "calle": "Figueroa Alcorta",
+      "localidad": "Palermo",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "emepladoAtendedor": {
+    "id": 1,
+    "nombre": "Facundo",
+    "apellido": "Fernandez",
+    "dni": 11111111,
+    "cuil": "20111111110",
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    },
+    "domicilio": {
+      "_id": 1,
+      "calle": "20 de Septiembre",
+      "localidad": "Banfield",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "listaDetalleVentas": [
+    {
+      "id": 7,
+      "total": 1000,
+      "precioUnitario": 125,
+      "cantidad": 8,
+      "producto": {
+        "id": 1,
+        "tipo": "Perfume",
+        "descripcion": "Axel",
+        "laboratorio": "Eurolab",
+        "codNumerico": "1010",
+        "precio": 125
+      }
+    },
+    {
+      "id": 8,
+      "total": 800,
+      "precioUnitario": 100,
+      "cantidad": 8,
+      "producto": {
+        "id": 2,
+        "tipo": "Perfume",
+        "descripcion": "Rexonna",
+        "laboratorio": "Richmond",
+        "codNumerico": "1111",
+        "precio": 100
+      }
+    },
+    {
+      "id": 9,
+      "total": 2905,
+      "precioUnitario": 415,
+      "cantidad": 7,
+      "producto": {
+        "id": 6,
+        "tipo": "Medicamento",
+        "descripcion": "Isoprotenerol",
+        "laboratorio": "Richmond",
+        "codNumerico": "1515",
+        "precio": 415
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6484a9a418a6dd23fc8ff12d"
+  },
+  "numeroTicket": 580,
+  "cliente": {
+    "id": 2,
+    "nombre": "Manuel",
+    "apellido": "Grecco",
+    "dni": 31321345,
+    "domicilio": {
+      "_id": 2,
+      "calle": "Avenida Pavon",
+      "localidad": "Lanus",
+      "provincia": "Buenos Aires"
+    },
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    }
+  },
+  "fechaVenta": {
+    "$date": "2023-04-12T03:00:00.000Z"
+  },
+  "formaPago": "Debito",
+  "sucursal": {
+    "id": 1,
+    "nombre": "Farmacity",
+    "puntoVenta": 1,
+    "domicilio": {
+      "_id": 6,
+      "calle": "Sarmiento",
+      "localidad": "Villa Fiorito",
+      "provincia": "Buenos Aires"
+    },
+    "encargado": "Facundo Fernandez",
+    "empleados": [
+      {
+        "_id": 1,
+        "apellido": "Fernandez",
+        "cuil": "20111111110",
+        "dni": 11111111,
+        "domicilio": {
+          "_id": 1,
+          "calle": "20 de Septiembre",
+          "localidad": "Banfield",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Facundo",
+        "obraSocial": {
+          "_id": 1,
+          "nombre": "Hermanos S.A",
+          "numAfiliado": 1
+        }
+      },
+      {
+        "_id": 2,
+        "apellido": "Rivera",
+        "cuil": "21222222220",
+        "dni": 22222222,
+        "domicilio": {
+          "_id": 2,
+          "calle": "Avenida Pavon",
+          "localidad": "Lanus",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Jorge",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      },
+      {
+        "_id": 3,
+        "apellido": "Fernandez",
+        "cuil": "22333333330",
+        "dni": 33333333,
+        "domicilio": {
+          "_id": 4,
+          "calle": "Figueroa Alcorta",
+          "localidad": "Palermo",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Claudio",
+        "obraSocial": {
+          "_id": 1,
+          "nombre": "Hermanos S.A",
+          "numAfiliado": 1
+        }
+      }
+    ]
+  },
+  "empleadoCobrador": {
+    "id": 3,
+    "nombre": "Claudio",
+    "apellido": "Fernandez",
+    "dni": 33333333,
+    "cuil": "22333333330",
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    },
+    "domicilio": {
+      "_id": 4,
+      "calle": "Figueroa Alcorta",
+      "localidad": "Palermo",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "emepladoAtendedor": {
+    "id": 1,
+    "nombre": "Facundo",
+    "apellido": "Fernandez",
+    "dni": 11111111,
+    "cuil": "20111111110",
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    },
+    "domicilio": {
+      "_id": 1,
+      "calle": "20 de Septiembre",
+      "localidad": "Banfield",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "listaDetalleVentas": [
+    {
+      "id": 10,
+      "total": 1470,
+      "precioUnitario": 245,
+      "cantidad": 6,
+      "producto": {
+        "id": 7,
+        "tipo": "Medicamento",
+        "descripcion": "Dopamina",
+        "laboratorio": "Richmond",
+        "codNumerico": "1616",
+        "precio": 245
+      }
+    },
+    {
+      "id": 11,
+      "total": 1750,
+      "precioUnitario": 350,
+      "cantidad": 5,
+      "producto": {
+        "id": 8,
+        "tipo": "Medicamento",
+        "descripcion": "Atropina",
+        "laboratorio": "Richmond",
+        "codNumerico": "1717",
+        "precio": 350
+      }
+    },
+    {
+      "id": 12,
+      "total": 1040,
+      "precioUnitario": 520,
+      "cantidad": 2,
+      "producto": {
+        "id": 9,
+        "tipo": "Medicamento",
+        "descripcion": "Propofol",
+        "laboratorio": "Eurolab",
+        "codNumerico": "1818",
+        "precio": 520
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6484a9a418a6dd23fc8ff12e"
+  },
+  "numeroTicket": 2688,
+  "cliente": {
+    "id": 1,
+    "nombre": "Jorge",
+    "apellido": "Perez",
+    "dni": 41767737,
+    "domicilio": {
+      "_id": 1,
+      "calle": "20 de Septiembre",
+      "localidad": "Banfield",
+      "provincia": "Buenos Aires"
+    },
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    }
+  },
+  "fechaVenta": {
+    "$date": "2023-04-10T03:00:00.000Z"
+  },
+  "formaPago": "Efectivo",
+  "sucursal": {
+    "id": 2,
+    "nombre": "Trebol Verde",
+    "puntoVenta": 5,
+    "domicilio": {
+      "_id": 2,
+      "calle": "Avenida Pavon",
+      "localidad": "Lanus",
+      "provincia": "Buenos Aires"
+    },
+    "encargado": "Leandro Lopez",
+    "empleados": [
+      {
+        "_id": 4,
+        "apellido": "Lopez",
+        "cuil": "20444444440",
+        "dni": 44444444,
+        "domicilio": {
+          "_id": 4,
+          "calle": "Figueroa Alcorta",
+          "localidad": "Palermo",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Leandro",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      },
+      {
+        "_id": 5,
+        "apellido": "Morandi",
+        "cuil": "23555555550",
+        "dni": 55555555,
+        "domicilio": {
+          "_id": 1,
+          "calle": "20 de Septiembre",
+          "localidad": "Banfield",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Lucas",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      },
+      {
+        "_id": 6,
+        "apellido": "Suarez",
+        "cuil": "21666666660",
+        "dni": 66666666,
+        "domicilio": {
+          "_id": 6,
+          "calle": "Sarmiento",
+          "localidad": "Villa Fiorito",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Alejo",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      }
+    ]
+  },
+  "empleadoCobrador": {
+    "id": 8,
+    "nombre": "Julian",
+    "apellido": "Vazquez",
+    "dni": 88888888,
+    "cuil": "21888888880",
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    },
+    "domicilio": {
+      "_id": 2,
+      "calle": "Avenida Pavon",
+      "localidad": "Lanus",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "emepladoAtendedor": {
+    "id": 5,
+    "nombre": "Lucas",
+    "apellido": "Morandi",
+    "dni": 55555555,
+    "cuil": "23555555550",
+    "obraSocial": {
+      "_id": 2,
+      "nombre": "AFIP",
+      "numAfiliado": 2
+    },
+    "domicilio": {
+      "_id": 1,
+      "calle": "20 de Septiembre",
+      "localidad": "Banfield",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "listaDetalleVentas": [
+    {
+      "id": 13,
+      "total": 625,
+      "precioUnitario": 125,
+      "cantidad": 5,
+      "producto": {
+        "id": 1,
+        "tipo": "Perfume",
+        "descripcion": "Axel",
+        "laboratorio": "Eurolab",
+        "codNumerico": "1010",
+        "precio": 125
+      }
+    },
+    {
+      "id": 14,
+      "total": 600,
+      "precioUnitario": 100,
+      "cantidad": 6,
+      "producto": {
+        "id": 2,
+        "tipo": "Perfume",
+        "descripcion": "Rexonna",
+        "laboratorio": "Richmond",
+        "codNumerico": "1111",
+        "precio": 100
+      }
+    },
+    {
+      "id": 15,
+      "total": 438,
+      "precioUnitario": 73,
+      "cantidad": 6,
+      "producto": {
+        "id": 3,
+        "tipo": "Perfume",
+        "descripcion": "Pacco",
+        "laboratorio": "Richmond",
+        "codNumerico": "1212",
+        "precio": 73
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6484a9a418a6dd23fc8ff12f"
+  },
+  "numeroTicket": 2689,
+  "cliente": {
+    "id": 1,
+    "nombre": "Jorge",
+    "apellido": "Perez",
+    "dni": 41767737,
+    "domicilio": {
+      "_id": 1,
+      "calle": "20 de Septiembre",
+      "localidad": "Banfield",
+      "provincia": "Buenos Aires"
+    },
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    }
+  },
+  "fechaVenta": {
+    "$date": "2023-04-11T03:00:00.000Z"
+  },
+  "formaPago": "Efectivo",
+  "sucursal": {
+    "id": 2,
+    "nombre": "Trebol Verde",
+    "puntoVenta": 5,
+    "domicilio": {
+      "_id": 2,
+      "calle": "Avenida Pavon",
+      "localidad": "Lanus",
+      "provincia": "Buenos Aires"
+    },
+    "encargado": "Leandro Lopez",
+    "empleados": [
+      {
+        "_id": 4,
+        "apellido": "Lopez",
+        "cuil": "20444444440",
+        "dni": 44444444,
+        "domicilio": {
+          "_id": 4,
+          "calle": "Figueroa Alcorta",
+          "localidad": "Palermo",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Leandro",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      },
+      {
+        "_id": 5,
+        "apellido": "Morandi",
+        "cuil": "23555555550",
+        "dni": 55555555,
+        "domicilio": {
+          "_id": 1,
+          "calle": "20 de Septiembre",
+          "localidad": "Banfield",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Lucas",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      },
+      {
+        "_id": 6,
+        "apellido": "Suarez",
+        "cuil": "21666666660",
+        "dni": 66666666,
+        "domicilio": {
+          "_id": 6,
+          "calle": "Sarmiento",
+          "localidad": "Villa Fiorito",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Alejo",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      }
+    ]
+  },
+  "empleadoCobrador": {
+    "id": 8,
+    "nombre": "Julian",
+    "apellido": "Vazquez",
+    "dni": 88888888,
+    "cuil": "21888888880",
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    },
+    "domicilio": {
+      "_id": 2,
+      "calle": "Avenida Pavon",
+      "localidad": "Lanus",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "emepladoAtendedor": {
+    "id": 5,
+    "nombre": "Lucas",
+    "apellido": "Morandi",
+    "dni": 55555555,
+    "cuil": "23555555550",
+    "obraSocial": {
+      "_id": 2,
+      "nombre": "AFIP",
+      "numAfiliado": 2
+    },
+    "domicilio": {
+      "_id": 1,
+      "calle": "20 de Septiembre",
+      "localidad": "Banfield",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "listaDetalleVentas": [
+    {
+      "id": 16,
+      "total": 1625,
+      "precioUnitario": 325,
+      "cantidad": 5,
+      "producto": {
+        "id": 4,
+        "tipo": "Medicamento",
+        "descripcion": "Morfina",
+        "laboratorio": "Eurolab",
+        "codNumerico": "1313",
+        "precio": 325
+      }
+    },
+    {
+      "id": 17,
+      "total": 1200,
+      "precioUnitario": 300,
+      "cantidad": 4,
+      "producto": {
+        "id": 5,
+        "tipo": "Medicamento",
+        "descripcion": "Manitol",
+        "laboratorio": "Eurolab",
+        "codNumerico": "1414",
+        "precio": 300
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6484a9a418a6dd23fc8ff130"
+  },
+  "numeroTicket": 2690,
+  "cliente": {
+    "id": 1,
+    "nombre": "Jorge",
+    "apellido": "Perez",
+    "dni": 41767737,
+    "domicilio": {
+      "_id": 1,
+      "calle": "20 de Septiembre",
+      "localidad": "Banfield",
+      "provincia": "Buenos Aires"
+    },
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    }
+  },
+  "fechaVenta": {
+    "$date": "2023-04-11T03:00:00.000Z"
+  },
+  "formaPago": "Efectivo",
+  "sucursal": {
+    "id": 2,
+    "nombre": "Trebol Verde",
+    "puntoVenta": 5,
+    "domicilio": {
+      "_id": 2,
+      "calle": "Avenida Pavon",
+      "localidad": "Lanus",
+      "provincia": "Buenos Aires"
+    },
+    "encargado": "Leandro Lopez",
+    "empleados": [
+      {
+        "_id": 4,
+        "apellido": "Lopez",
+        "cuil": "20444444440",
+        "dni": 44444444,
+        "domicilio": {
+          "_id": 4,
+          "calle": "Figueroa Alcorta",
+          "localidad": "Palermo",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Leandro",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      },
+      {
+        "_id": 5,
+        "apellido": "Morandi",
+        "cuil": "23555555550",
+        "dni": 55555555,
+        "domicilio": {
+          "_id": 1,
+          "calle": "20 de Septiembre",
+          "localidad": "Banfield",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Lucas",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      },
+      {
+        "_id": 6,
+        "apellido": "Suarez",
+        "cuil": "21666666660",
+        "dni": 66666666,
+        "domicilio": {
+          "_id": 6,
+          "calle": "Sarmiento",
+          "localidad": "Villa Fiorito",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Alejo",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      }
+    ]
+  },
+  "empleadoCobrador": {
+    "id": 5,
+    "nombre": "Lucas",
+    "apellido": "Morandi",
+    "dni": 55555555,
+    "cuil": "23555555550",
+    "obraSocial": {
+      "_id": 2,
+      "nombre": "AFIP",
+      "numAfiliado": 2
+    },
+    "domicilio": {
+      "_id": 1,
+      "calle": "20 de Septiembre",
+      "localidad": "Banfield",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "emepladoAtendedor": {
+    "id": 8,
+    "nombre": "Julian",
+    "apellido": "Vazquez",
+    "dni": 88888888,
+    "cuil": "21888888880",
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    },
+    "domicilio": {
+      "_id": 2,
+      "calle": "Avenida Pavon",
+      "localidad": "Lanus",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "listaDetalleVentas": [
+    {
+      "id": 18,
+      "total": 500,
+      "precioUnitario": 125,
+      "cantidad": 4,
+      "producto": {
+        "id": 1,
+        "tipo": "Perfume",
+        "descripcion": "Axel",
+        "laboratorio": "Eurolab",
+        "codNumerico": "1010",
+        "precio": 125
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6484a9a418a6dd23fc8ff131"
+  },
+  "numeroTicket": 2691,
+  "cliente": {
+    "id": 2,
+    "nombre": "Manuel",
+    "apellido": "Grecco",
+    "dni": 31321345,
+    "domicilio": {
+      "_id": 2,
+      "calle": "Avenida Pavon",
+      "localidad": "Lanus",
+      "provincia": "Buenos Aires"
+    },
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    }
+  },
+  "fechaVenta": {
+    "$date": "2023-04-12T03:00:00.000Z"
+  },
+  "formaPago": "Efectivo",
+  "sucursal": {
+    "id": 2,
+    "nombre": "Trebol Verde",
+    "puntoVenta": 5,
+    "domicilio": {
+      "_id": 2,
+      "calle": "Avenida Pavon",
+      "localidad": "Lanus",
+      "provincia": "Buenos Aires"
+    },
+    "encargado": "Leandro Lopez",
+    "empleados": [
+      {
+        "_id": 4,
+        "apellido": "Lopez",
+        "cuil": "20444444440",
+        "dni": 44444444,
+        "domicilio": {
+          "_id": 4,
+          "calle": "Figueroa Alcorta",
+          "localidad": "Palermo",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Leandro",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      },
+      {
+        "_id": 5,
+        "apellido": "Morandi",
+        "cuil": "23555555550",
+        "dni": 55555555,
+        "domicilio": {
+          "_id": 1,
+          "calle": "20 de Septiembre",
+          "localidad": "Banfield",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Lucas",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      },
+      {
+        "_id": 6,
+        "apellido": "Suarez",
+        "cuil": "21666666660",
+        "dni": 66666666,
+        "domicilio": {
+          "_id": 6,
+          "calle": "Sarmiento",
+          "localidad": "Villa Fiorito",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Alejo",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      }
+    ]
+  },
+  "empleadoCobrador": {
+    "id": 5,
+    "nombre": "Lucas",
+    "apellido": "Morandi",
+    "dni": 55555555,
+    "cuil": "23555555550",
+    "obraSocial": {
+      "_id": 2,
+      "nombre": "AFIP",
+      "numAfiliado": 2
+    },
+    "domicilio": {
+      "_id": 1,
+      "calle": "20 de Septiembre",
+      "localidad": "Banfield",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "emepladoAtendedor": {
+    "id": 8,
+    "nombre": "Julian",
+    "apellido": "Vazquez",
+    "dni": 88888888,
+    "cuil": "21888888880",
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    },
+    "domicilio": {
+      "_id": 2,
+      "calle": "Avenida Pavon",
+      "localidad": "Lanus",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "listaDetalleVentas": [
+    {
+      "id": 19,
+      "total": 300,
+      "precioUnitario": 100,
+      "cantidad": 3,
+      "producto": {
+        "id": 2,
+        "tipo": "Perfume",
+        "descripcion": "Rexonna",
+        "laboratorio": "Richmond",
+        "codNumerico": "1111",
+        "precio": 100
+      }
+    },
+    {
+      "id": 20,
+      "total": 415,
+      "precioUnitario": 415,
+      "cantidad": 1,
+      "producto": {
+        "id": 6,
+        "tipo": "Medicamento",
+        "descripcion": "Isoprotenerol",
+        "laboratorio": "Richmond",
+        "codNumerico": "1515",
+        "precio": 415
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6484a9a418a6dd23fc8ff132"
+  },
+  "numeroTicket": 2692,
+  "cliente": {
+    "id": 2,
+    "nombre": "Manuel",
+    "apellido": "Grecco",
+    "dni": 31321345,
+    "domicilio": {
+      "_id": 2,
+      "calle": "Avenida Pavon",
+      "localidad": "Lanus",
+      "provincia": "Buenos Aires"
+    },
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    }
+  },
+  "fechaVenta": {
+    "$date": "2023-04-12T03:00:00.000Z"
+  },
+  "formaPago": "Debito",
+  "sucursal": {
+    "id": 2,
+    "nombre": "Trebol Verde",
+    "puntoVenta": 5,
+    "domicilio": {
+      "_id": 2,
+      "calle": "Avenida Pavon",
+      "localidad": "Lanus",
+      "provincia": "Buenos Aires"
+    },
+    "encargado": "Leandro Lopez",
+    "empleados": [
+      {
+        "_id": 4,
+        "apellido": "Lopez",
+        "cuil": "20444444440",
+        "dni": 44444444,
+        "domicilio": {
+          "_id": 4,
+          "calle": "Figueroa Alcorta",
+          "localidad": "Palermo",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Leandro",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      },
+      {
+        "_id": 5,
+        "apellido": "Morandi",
+        "cuil": "23555555550",
+        "dni": 55555555,
+        "domicilio": {
+          "_id": 1,
+          "calle": "20 de Septiembre",
+          "localidad": "Banfield",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Lucas",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      },
+      {
+        "_id": 6,
+        "apellido": "Suarez",
+        "cuil": "21666666660",
+        "dni": 66666666,
+        "domicilio": {
+          "_id": 6,
+          "calle": "Sarmiento",
+          "localidad": "Villa Fiorito",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Alejo",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      }
+    ]
+  },
+  "empleadoCobrador": {
+    "id": 5,
+    "nombre": "Lucas",
+    "apellido": "Morandi",
+    "dni": 55555555,
+    "cuil": "23555555550",
+    "obraSocial": {
+      "_id": 2,
+      "nombre": "AFIP",
+      "numAfiliado": 2
+    },
+    "domicilio": {
+      "_id": 1,
+      "calle": "20 de Septiembre",
+      "localidad": "Banfield",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "emepladoAtendedor": {
+    "id": 8,
+    "nombre": "Julian",
+    "apellido": "Vazquez",
+    "dni": 88888888,
+    "cuil": "21888888880",
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    },
+    "domicilio": {
+      "_id": 2,
+      "calle": "Avenida Pavon",
+      "localidad": "Lanus",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "listaDetalleVentas": [
+    {
+      "id": 21,
+      "total": 600,
+      "precioUnitario": 300,
+      "cantidad": 2,
+      "producto": {
+        "id": 5,
+        "tipo": "Medicamento",
+        "descripcion": "Manitol",
+        "laboratorio": "Eurolab",
+        "codNumerico": "1414",
+        "precio": 300
+      }
+    },
+    {
+      "id": 22,
+      "total": 700,
+      "precioUnitario": 350,
+      "cantidad": 2,
+      "producto": {
+        "id": 8,
+        "tipo": "Medicamento",
+        "descripcion": "Atropina",
+        "laboratorio": "Richmond",
+        "codNumerico": "1717",
+        "precio": 350
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6484a9a418a6dd23fc8ff133"
+  },
+  "numeroTicket": 3968,
+  "cliente": {
+    "id": 1,
+    "nombre": "Jorge",
+    "apellido": "Perez",
+    "dni": 41767737,
+    "domicilio": {
+      "_id": 1,
+      "calle": "20 de Septiembre",
+      "localidad": "Banfield",
+      "provincia": "Buenos Aires"
+    },
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    }
+  },
+  "fechaVenta": {
+    "$date": "2023-04-18T03:00:00.000Z"
+  },
+  "formaPago": "Efectivo",
+  "sucursal": {
+    "id": 3,
+    "nombre": "Asoprofarma",
+    "puntoVenta": 7,
+    "domicilio": {
+      "_id": 5,
+      "calle": "La Pampa",
+      "localidad": "Palermo",
+      "provincia": "Buenos Aires"
+    },
+    "encargado": "Roberto Guzman",
+    "empleados": [
+      {
+        "_id": 7,
+        "apellido": "Guzman",
+        "cuil": "21777777770",
+        "dni": 77777777,
+        "domicilio": {
+          "_id": 5,
+          "calle": "La Pampa",
+          "localidad": "Palermo",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Roberto",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      },
+      {
+        "_id": 8,
+        "apellido": "Vazquez",
+        "cuil": "21888888880",
+        "dni": 88888888,
+        "domicilio": {
+          "_id": 2,
+          "calle": "Avenida Pavon",
+          "localidad": "Lanus",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Julian",
+        "obraSocial": {
+          "_id": 1,
+          "nombre": "Hermanos S.A",
+          "numAfiliado": 1
+        }
+      },
+      {
+        "_id": 9,
+        "apellido": "Sotto",
+        "cuil": "21999999990",
+        "dni": 99999999,
+        "domicilio": {
+          "_id": 6,
+          "calle": "Sarmiento",
+          "localidad": "Villa Fiorito",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Mariano",
+        "obraSocial": {
+          "_id": 1,
+          "nombre": "Hermanos S.A",
+          "numAfiliado": 1
+        }
+      }
+    ]
+  },
+  "empleadoCobrador": {
+    "id": 2,
+    "nombre": "Jorge",
+    "apellido": "Rivera",
+    "dni": 22222222,
+    "cuil": "21222222220",
+    "obraSocial": {
+      "_id": 2,
+      "nombre": "AFIP",
+      "numAfiliado": 2
+    },
+    "domicilio": {
+      "_id": 2,
+      "calle": "Avenida Pavon",
+      "localidad": "Lanus",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "emepladoAtendedor": {
+    "id": 7,
+    "nombre": "Roberto",
+    "apellido": "Guzman",
+    "dni": 77777777,
+    "cuil": "21777777770",
+    "obraSocial": {
+      "_id": 2,
+      "nombre": "AFIP",
+      "numAfiliado": 2
+    },
+    "domicilio": {
+      "_id": 5,
+      "calle": "La Pampa",
+      "localidad": "Palermo",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "listaDetalleVentas": [
+    {
+      "id": 25,
+      "total": 900,
+      "precioUnitario": 300,
+      "cantidad": 3,
+      "producto": {
+        "id": 5,
+        "tipo": "Medicamento",
+        "descripcion": "Manitol",
+        "laboratorio": "Eurolab",
+        "codNumerico": "1414",
+        "precio": 300
+      }
+    },
+    {
+      "id": 26,
+      "total": 500,
+      "precioUnitario": 125,
+      "cantidad": 4,
+      "producto": {
+        "id": 1,
+        "tipo": "Perfume",
+        "descripcion": "Axel",
+        "laboratorio": "Eurolab",
+        "codNumerico": "1010",
+        "precio": 125
+      }
+    },
+    {
+      "id": 27,
+      "total": 300,
+      "precioUnitario": 100,
+      "cantidad": 3,
+      "producto": {
+        "id": 2,
+        "tipo": "Perfume",
+        "descripcion": "Rexonna",
+        "laboratorio": "Richmond",
+        "codNumerico": "1111",
+        "precio": 100
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6484a9a418a6dd23fc8ff134"
+  },
+  "numeroTicket": 3969,
+  "cliente": {
+    "id": 1,
+    "nombre": "Jorge",
+    "apellido": "Perez",
+    "dni": 41767737,
+    "domicilio": {
+      "_id": 1,
+      "calle": "20 de Septiembre",
+      "localidad": "Banfield",
+      "provincia": "Buenos Aires"
+    },
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    }
+  },
+  "fechaVenta": {
+    "$date": "2023-04-19T03:00:00.000Z"
+  },
+  "formaPago": "Efectivo",
+  "sucursal": {
+    "id": 3,
+    "nombre": "Asoprofarma",
+    "puntoVenta": 7,
+    "domicilio": {
+      "_id": 5,
+      "calle": "La Pampa",
+      "localidad": "Palermo",
+      "provincia": "Buenos Aires"
+    },
+    "encargado": "Roberto Guzman",
+    "empleados": [
+      {
+        "_id": 7,
+        "apellido": "Guzman",
+        "cuil": "21777777770",
+        "dni": 77777777,
+        "domicilio": {
+          "_id": 5,
+          "calle": "La Pampa",
+          "localidad": "Palermo",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Roberto",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      },
+      {
+        "_id": 8,
+        "apellido": "Vazquez",
+        "cuil": "21888888880",
+        "dni": 88888888,
+        "domicilio": {
+          "_id": 2,
+          "calle": "Avenida Pavon",
+          "localidad": "Lanus",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Julian",
+        "obraSocial": {
+          "_id": 1,
+          "nombre": "Hermanos S.A",
+          "numAfiliado": 1
+        }
+      },
+      {
+        "_id": 9,
+        "apellido": "Sotto",
+        "cuil": "21999999990",
+        "dni": 99999999,
+        "domicilio": {
+          "_id": 6,
+          "calle": "Sarmiento",
+          "localidad": "Villa Fiorito",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Mariano",
+        "obraSocial": {
+          "_id": 1,
+          "nombre": "Hermanos S.A",
+          "numAfiliado": 1
+        }
+      }
+    ]
+  },
+  "empleadoCobrador": {
+    "id": 2,
+    "nombre": "Jorge",
+    "apellido": "Rivera",
+    "dni": 22222222,
+    "cuil": "21222222220",
+    "obraSocial": {
+      "_id": 2,
+      "nombre": "AFIP",
+      "numAfiliado": 2
+    },
+    "domicilio": {
+      "_id": 2,
+      "calle": "Avenida Pavon",
+      "localidad": "Lanus",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "emepladoAtendedor": {
+    "id": 7,
+    "nombre": "Roberto",
+    "apellido": "Guzman",
+    "dni": 77777777,
+    "cuil": "21777777770",
+    "obraSocial": {
+      "_id": 2,
+      "nombre": "AFIP",
+      "numAfiliado": 2
+    },
+    "domicilio": {
+      "_id": 5,
+      "calle": "La Pampa",
+      "localidad": "Palermo",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "listaDetalleVentas": [
+    {
+      "id": 28,
+      "total": 511,
+      "precioUnitario": 73,
+      "cantidad": 7,
+      "producto": {
+        "id": 3,
+        "tipo": "Perfume",
+        "descripcion": "Pacco",
+        "laboratorio": "Richmond",
+        "codNumerico": "1212",
+        "precio": 73
+      }
+    },
+    {
+      "id": 29,
+      "total": 2925,
+      "precioUnitario": 325,
+      "cantidad": 9,
+      "producto": {
+        "id": 4,
+        "tipo": "Medicamento",
+        "descripcion": "Morfina",
+        "laboratorio": "Eurolab",
+        "codNumerico": "1313",
+        "precio": 325
+      }
+    },
+    {
+      "id": 30,
+      "total": 2075,
+      "precioUnitario": 415,
+      "cantidad": 5,
+      "producto": {
+        "id": 6,
+        "tipo": "Medicamento",
+        "descripcion": "Isoprotenerol",
+        "laboratorio": "Richmond",
+        "codNumerico": "1515",
+        "precio": 415
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6484a9a518a6dd23fc8ff135"
+  },
+  "numeroTicket": 3970,
+  "cliente": {
+    "id": 1,
+    "nombre": "Jorge",
+    "apellido": "Perez",
+    "dni": 41767737,
+    "domicilio": {
+      "_id": 1,
+      "calle": "20 de Septiembre",
+      "localidad": "Banfield",
+      "provincia": "Buenos Aires"
+    },
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    }
+  },
+  "fechaVenta": {
+    "$date": "2023-04-20T03:00:00.000Z"
+  },
+  "formaPago": "Efectivo",
+  "sucursal": {
+    "id": 3,
+    "nombre": "Asoprofarma",
+    "puntoVenta": 7,
+    "domicilio": {
+      "_id": 5,
+      "calle": "La Pampa",
+      "localidad": "Palermo",
+      "provincia": "Buenos Aires"
+    },
+    "encargado": "Roberto Guzman",
+    "empleados": [
+      {
+        "_id": 7,
+        "apellido": "Guzman",
+        "cuil": "21777777770",
+        "dni": 77777777,
+        "domicilio": {
+          "_id": 5,
+          "calle": "La Pampa",
+          "localidad": "Palermo",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Roberto",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      },
+      {
+        "_id": 8,
+        "apellido": "Vazquez",
+        "cuil": "21888888880",
+        "dni": 88888888,
+        "domicilio": {
+          "_id": 2,
+          "calle": "Avenida Pavon",
+          "localidad": "Lanus",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Julian",
+        "obraSocial": {
+          "_id": 1,
+          "nombre": "Hermanos S.A",
+          "numAfiliado": 1
+        }
+      },
+      {
+        "_id": 9,
+        "apellido": "Sotto",
+        "cuil": "21999999990",
+        "dni": 99999999,
+        "domicilio": {
+          "_id": 6,
+          "calle": "Sarmiento",
+          "localidad": "Villa Fiorito",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Mariano",
+        "obraSocial": {
+          "_id": 1,
+          "nombre": "Hermanos S.A",
+          "numAfiliado": 1
+        }
+      }
+    ]
+  },
+  "empleadoCobrador": {
+    "id": 2,
+    "nombre": "Jorge",
+    "apellido": "Rivera",
+    "dni": 22222222,
+    "cuil": "21222222220",
+    "obraSocial": {
+      "_id": 2,
+      "nombre": "AFIP",
+      "numAfiliado": 2
+    },
+    "domicilio": {
+      "_id": 2,
+      "calle": "Avenida Pavon",
+      "localidad": "Lanus",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "emepladoAtendedor": {
+    "id": 7,
+    "nombre": "Roberto",
+    "apellido": "Guzman",
+    "dni": 77777777,
+    "cuil": "21777777770",
+    "obraSocial": {
+      "_id": 2,
+      "nombre": "AFIP",
+      "numAfiliado": 2
+    },
+    "domicilio": {
+      "_id": 5,
+      "calle": "La Pampa",
+      "localidad": "Palermo",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "listaDetalleVentas": [
+    {
+      "id": 31,
+      "total": 900,
+      "precioUnitario": 300,
+      "cantidad": 3,
+      "producto": {
+        "id": 5,
+        "tipo": "Medicamento",
+        "descripcion": "Manitol",
+        "laboratorio": "Eurolab",
+        "codNumerico": "1414",
+        "precio": 300
+      }
+    },
+    {
+      "id": 32,
+      "total": 1400,
+      "precioUnitario": 350,
+      "cantidad": 4,
+      "producto": {
+        "id": 8,
+        "tipo": "Medicamento",
+        "descripcion": "Atropina",
+        "laboratorio": "Richmond",
+        "codNumerico": "1717",
+        "precio": 350
+      }
+    },
+    {
+      "id": 33,
+      "total": 700,
+      "precioUnitario": 350,
+      "cantidad": 2,
+      "producto": {
+        "id": 8,
+        "tipo": "Medicamento",
+        "descripcion": "Atropina",
+        "laboratorio": "Richmond",
+        "codNumerico": "1717",
+        "precio": 350
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6484a9a518a6dd23fc8ff136"
+  },
+  "numeroTicket": 3971,
+  "cliente": {
+    "id": 2,
+    "nombre": "Manuel",
+    "apellido": "Grecco",
+    "dni": 31321345,
+    "domicilio": {
+      "_id": 2,
+      "calle": "Avenida Pavon",
+      "localidad": "Lanus",
+      "provincia": "Buenos Aires"
+    },
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    }
+  },
+  "fechaVenta": {
+    "$date": "2023-04-21T03:00:00.000Z"
+  },
+  "formaPago": "Efectivo",
+  "sucursal": {
+    "id": 3,
+    "nombre": "Asoprofarma",
+    "puntoVenta": 7,
+    "domicilio": {
+      "_id": 5,
+      "calle": "La Pampa",
+      "localidad": "Palermo",
+      "provincia": "Buenos Aires"
+    },
+    "encargado": "Roberto Guzman",
+    "empleados": [
+      {
+        "_id": 7,
+        "apellido": "Guzman",
+        "cuil": "21777777770",
+        "dni": 77777777,
+        "domicilio": {
+          "_id": 5,
+          "calle": "La Pampa",
+          "localidad": "Palermo",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Roberto",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      },
+      {
+        "_id": 8,
+        "apellido": "Vazquez",
+        "cuil": "21888888880",
+        "dni": 88888888,
+        "domicilio": {
+          "_id": 2,
+          "calle": "Avenida Pavon",
+          "localidad": "Lanus",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Julian",
+        "obraSocial": {
+          "_id": 1,
+          "nombre": "Hermanos S.A",
+          "numAfiliado": 1
+        }
+      },
+      {
+        "_id": 9,
+        "apellido": "Sotto",
+        "cuil": "21999999990",
+        "dni": 99999999,
+        "domicilio": {
+          "_id": 6,
+          "calle": "Sarmiento",
+          "localidad": "Villa Fiorito",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Mariano",
+        "obraSocial": {
+          "_id": 1,
+          "nombre": "Hermanos S.A",
+          "numAfiliado": 1
+        }
+      }
+    ]
+  },
+  "empleadoCobrador": {
+    "id": 2,
+    "nombre": "Jorge",
+    "apellido": "Rivera",
+    "dni": 22222222,
+    "cuil": "21222222220",
+    "obraSocial": {
+      "_id": 2,
+      "nombre": "AFIP",
+      "numAfiliado": 2
+    },
+    "domicilio": {
+      "_id": 2,
+      "calle": "Avenida Pavon",
+      "localidad": "Lanus",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "emepladoAtendedor": {
+    "id": 7,
+    "nombre": "Roberto",
+    "apellido": "Guzman",
+    "dni": 77777777,
+    "cuil": "21777777770",
+    "obraSocial": {
+      "_id": 2,
+      "nombre": "AFIP",
+      "numAfiliado": 2
+    },
+    "domicilio": {
+      "_id": 5,
+      "calle": "La Pampa",
+      "localidad": "Palermo",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "listaDetalleVentas": [
+    {
+      "id": 34,
+      "total": 520,
+      "precioUnitario": 520,
+      "cantidad": 1,
+      "producto": {
+        "id": 9,
+        "tipo": "Medicamento",
+        "descripcion": "Propofol",
+        "laboratorio": "Eurolab",
+        "codNumerico": "1818",
+        "precio": 520
+      }
+    },
+    {
+      "id": 35,
+      "total": 3360,
+      "precioUnitario": 480,
+      "cantidad": 7,
+      "producto": {
+        "id": 10,
+        "tipo": "Medicamento",
+        "descripcion": "Aspirina",
+        "laboratorio": "Eurolab",
+        "codNumerico": "1919",
+        "precio": 480
+      }
+    },
+    {
+      "id": 36,
+      "total": 1800,
+      "precioUnitario": 300,
+      "cantidad": 6,
+      "producto": {
+        "id": 5,
+        "tipo": "Medicamento",
+        "descripcion": "Manitol",
+        "laboratorio": "Eurolab",
+        "codNumerico": "1414",
+        "precio": 300
+      }
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6484a9a518a6dd23fc8ff137"
+  },
+  "numeroTicket": 3972,
+  "cliente": {
+    "id": 2,
+    "nombre": "Manuel",
+    "apellido": "Grecco",
+    "dni": 31321345,
+    "domicilio": {
+      "_id": 2,
+      "calle": "Avenida Pavon",
+      "localidad": "Lanus",
+      "provincia": "Buenos Aires"
+    },
+    "obraSocial": {
+      "_id": 1,
+      "nombre": "Hermanos S.A",
+      "numAfiliado": 1
+    }
+  },
+  "fechaVenta": {
+    "$date": "2023-04-21T03:00:00.000Z"
+  },
+  "formaPago": "Debito",
+  "sucursal": {
+    "id": 3,
+    "nombre": "Asoprofarma",
+    "puntoVenta": 7,
+    "domicilio": {
+      "_id": 5,
+      "calle": "La Pampa",
+      "localidad": "Palermo",
+      "provincia": "Buenos Aires"
+    },
+    "encargado": "Roberto Guzman",
+    "empleados": [
+      {
+        "_id": 7,
+        "apellido": "Guzman",
+        "cuil": "21777777770",
+        "dni": 77777777,
+        "domicilio": {
+          "_id": 5,
+          "calle": "La Pampa",
+          "localidad": "Palermo",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Roberto",
+        "obraSocial": {
+          "_id": 2,
+          "nombre": "AFIP",
+          "numAfiliado": 2
+        }
+      },
+      {
+        "_id": 8,
+        "apellido": "Vazquez",
+        "cuil": "21888888880",
+        "dni": 88888888,
+        "domicilio": {
+          "_id": 2,
+          "calle": "Avenida Pavon",
+          "localidad": "Lanus",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Julian",
+        "obraSocial": {
+          "_id": 1,
+          "nombre": "Hermanos S.A",
+          "numAfiliado": 1
+        }
+      },
+      {
+        "_id": 9,
+        "apellido": "Sotto",
+        "cuil": "21999999990",
+        "dni": 99999999,
+        "domicilio": {
+          "_id": 6,
+          "calle": "Sarmiento",
+          "localidad": "Villa Fiorito",
+          "provincia": "Buenos Aires"
+        },
+        "nombre": "Mariano",
+        "obraSocial": {
+          "_id": 1,
+          "nombre": "Hermanos S.A",
+          "numAfiliado": 1
+        }
+      }
+    ]
+  },
+  "empleadoCobrador": {
+    "id": 2,
+    "nombre": "Jorge",
+    "apellido": "Rivera",
+    "dni": 22222222,
+    "cuil": "21222222220",
+    "obraSocial": {
+      "_id": 2,
+      "nombre": "AFIP",
+      "numAfiliado": 2
+    },
+    "domicilio": {
+      "_id": 2,
+      "calle": "Avenida Pavon",
+      "localidad": "Lanus",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "emepladoAtendedor": {
+    "id": 7,
+    "nombre": "Roberto",
+    "apellido": "Guzman",
+    "dni": 77777777,
+    "cuil": "21777777770",
+    "obraSocial": {
+      "_id": 2,
+      "nombre": "AFIP",
+      "numAfiliado": 2
+    },
+    "domicilio": {
+      "_id": 5,
+      "calle": "La Pampa",
+      "localidad": "Palermo",
+      "provincia": "Buenos Aires"
+    }
+  },
+  "listaDetalleVentas": [
+    {
+      "id": 37,
+      "total": 657,
+      "precioUnitario": 73,
+      "cantidad": 9,
+      "producto": {
+        "id": 3,
+        "tipo": "Perfume",
+        "descripcion": "Pacco",
+        "laboratorio": "Richmond",
+        "codNumerico": "1212",
+        "precio": 73
+      }
+    },
+    {
+      "id": 38,
+      "total": 800,
+      "precioUnitario": 100,
+      "cantidad": 8,
+      "producto": {
+        "id": 2,
+        "tipo": "Perfume",
+        "descripcion": "Rexonna",
+        "laboratorio": "Richmond",
+        "codNumerico": "1111",
+        "precio": 100
+      }
+    },
+    {
+      "id": 39,
+      "total": 2275,
+      "precioUnitario": 325,
+      "cantidad": 7,
+      "producto": {
+        "id": 4,
+        "tipo": "Medicamento",
+        "descripcion": "Morfina",
+        "laboratorio": "Eurolab",
+        "codNumerico": "1313",
+        "precio": 325
+      }
+    }
+  ]
+}]

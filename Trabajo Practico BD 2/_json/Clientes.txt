@@ -1,0 +1,173 @@
+{
+  "id": 1,
+  "nombre": "Jorge",
+  "apellido": "Perez",
+  "dni": 41767737,
+  "domicilio": {
+    "id": 1,
+    "calle": "20 de Septiembre",
+    "localidad": "Banfield",
+    "provincia": "Buenos Aires"
+  },
+  "obraSocial": {
+    "id": 1,
+    "nombre": "Hermanos S.A",
+    "numAfiliado": 1
+  }
+}
+
+{
+  "id": 2,
+  "nombre": "Manuel",
+  "apellido": "Grecco",
+  "dni": 31321345,
+  "domicilio": {
+    "id": 2,
+    "calle": "Avenida Pavon",
+    "localidad": "Lanus",
+    "provincia": "Buenos Aires"
+  },
+  "obraSocial": {
+    "id": 1,
+    "nombre": "Hermanos S.A",
+    "numAfiliado": 1
+  }
+}
+
+{
+  "id": 3,
+  "nombre": "Mario",
+  "apellido": "Lopez",
+  "dni": 36789654,
+  "domicilio": {
+    "id": 4,
+    "calle": "Figueroa Alcorta",
+    "localidad": "Palermo",
+    "provincia": "Buenos Aires"
+  },
+  "obraSocial": {
+    "id": 1,
+    "nombre": "Hermanos S.A",
+    "numAfiliado": 1
+  }
+}
+
+{
+  "id": 4,
+  "nombre": "Carlos",
+  "apellido": "Benitez",
+  "dni": 40123432,
+  "domicilio": {
+    "id": 3,
+    "calle": "Miguel Cane",
+    "localidad": "Lanus",
+    "provincia": "Buenos Aires"
+  },
+  "obraSocial": {
+    "id": 2,
+    "nombre": "AFIP",
+    "numAfiliado": 2
+  }
+}
+{
+  "id": 5,
+  "nombre": "Matias",
+  "apellido": "Corvalan",
+  "dni": 42567432,
+  "domicilio": {
+    "id": 5,
+    "calle": "La Pampa",
+    "localidad": "Palermo",
+    "provincia": "Buenos Aires"
+  },
+  "obraSocial": {
+    "id": 1,
+    "nombre": "Hermanos S.A",
+    "numAfiliado": 1
+  }
+}
+{
+  "id": 6,
+  "nombre": "Federico",
+  "apellido": "Acosta",
+  "dni": 39654321,
+  "domicilio": {
+    "id": 1,
+    "calle": "20 de Septiembre",
+    "localidad": "Banfield",
+    "provincia": "Buenos Aires"
+  },
+  "obraSocial": {
+    "id": 2,
+    "nombre": "AFIP",
+    "numAfiliado": 2
+  }
+}
+{
+  "id": 7,
+  "nombre": "Leopoldo",
+  "apellido": "Garro",
+  "dni": 38567432,
+  "domicilio": {
+    "id": 5,
+    "calle": "La Pampa",
+    "localidad": "Palermo",
+    "provincia": "Buenos Aires"
+  },
+  "obraSocial": {
+    "id": 2,
+    "nombre": "AFIP",
+    "numAfiliado": 2
+  }
+}
+{
+  "id": 8,
+  "nombre": "Mauro",
+  "apellido": "Barco",
+  "dni": 34567321,
+  "domicilio": {
+    "id": 6,
+    "calle": "Sarmiento",
+    "localidad": "Villa Fiorito",
+    "provincia": "Buenos Aires"
+  },
+  "obraSocial": {
+    "id": 1,
+    "nombre": "Hermanos S.A",
+    "numAfiliado": 1
+  }
+}
+{
+  "id": 9,
+  "nombre": "Tomas",
+  "apellido": "Esposito",
+  "dni": 37654211,
+  "domicilio": {
+    "id": 4,
+    "calle": "Figueroa Alcorta",
+    "localidad": "Palermo",
+    "provincia": "Buenos Aires"
+  },
+  "obraSocial": {
+    "id": 1,
+    "nombre": "Hermanos S.A",
+    "numAfiliado": 1
+  }
+}
+{
+  "id": 10,
+  "nombre": "Enrique",
+  "apellido": "Sotto",
+  "dni": 38666544,
+  "domicilio": {
+    "id": 3,
+    "calle": "Miguel Cane",
+    "localidad": "Lanus",
+    "provincia": "Buenos Aires"
+  },
+  "obraSocial": {
+    "id": 1,
+    "nombre": "Hermanos S.A",
+    "numAfiliado": 1
+  }
+}
